@@ -1,0 +1,15 @@
+{
+  "name": "my-tailwind-project",
+  "version": "1.0.0",
+  "description": "A project using Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/styles.css -o ./dist/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Bakumpe Joseph",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  }
+}
